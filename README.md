@@ -31,4 +31,4 @@ The demo project uses the following third-party dependencies:
 
 ## Sample Images
 
-Carousel images are getting in real time by using [https://pixabay.com/api/docs/](Pixabay API)
+Loading images realtime by using [Pixabay REST API](https://pixabay.com/api/docs/). Images are randomly display in the Carousel.
