@@ -1,6 +1,7 @@
 import React, {useEffect} from 'react';
 import {SafeAreaView, StatusBar, StyleSheet, View} from 'react-native';
 import {shallowEqual, useDispatch, useSelector} from 'react-redux';
+import RNBootSplash from 'react-native-bootsplash';
 
 import {RootState} from '../../../reducers/RootReducer';
 import {fetchCarouselList} from '../actions/AppActions';
@@ -19,6 +20,17 @@ const AppScreen = () => {
   }, shallowEqual);
 
   const dispatch = useDispatch();
+
+  useEffect(() => {
+    const init = async () => {
+      // …do multiple sync or async tasks
+    };
+
+    init().finally(async () => {
+      await RNBootSplash.hide({fade: true});
+      console.log('Bootsplash has been hidden successfully');
+    });
+  }, []);
 
   useEffect(() => {
     const param = {

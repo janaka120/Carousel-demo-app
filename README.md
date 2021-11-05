@@ -27,3 +27,4 @@ The demo project uses the following third-party dependencies:
 - "react-navigation" - to support navigation
 - "axios" - Promise based HTTP client
 - "redux toolkit" - managing application state
+- "react-native-bootsplash" - implement splash screen during app startup
