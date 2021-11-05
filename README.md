@@ -1,12 +1,29 @@
-@react-navigation/native ios configuration
-    `npx pod-install ios`
+# Carousel Demo App
 
+# React Native Carousel Demo App
 
+## Getting started
 
+1. Install React Native as described at [https://reactnative.dev/docs/getting-started](https://reactnative.dev/docs/getting-started)
+2. Clone this repository
+3. Run `npm install` or `yarn`, all required components will be installed automatically
 
-lib used to develop this project
-    - Redux zToolkit==> https://redux-toolkit.js.org/tutorials/typescript
-    - @react-navigation/native ==> https://reactnavigation.org/docs/getting-started
-    - react-native-safe-area-context ==> https://github.com/th3rdwave/react-native-safe-area-context
-    - react-native-screens ==> https://github.com/software-mansion/react-native-screens
-# Carousel-demo-app
+   ### iOS
+
+   1. Run `pod install` from `news-feed/ios` folder
+   2. Start XCode and open generated `.xcworkspace`
+
+   ### Android
+
+   no steps required
+
+4. It is recommended to run `npx react-native start` command from root project directory.
+5. Run your project from XCode (`Cmd+R`) for iOS, or use `npx react-native run-android` to run your project on Android.
+
+## Demo project dependencies
+
+The demo project uses the following third-party dependencies:
+
+- "react-navigation" - to support navigation
+- "axios" - Promise based HTTP client
+- "redux toolkit" - managing application state
