@@ -18,6 +18,7 @@ import {
   FONT_INFO,
 } from '../../../styles/Spacing';
 import {generateNumberInBetween} from '../../../utils/Helper';
+import {HomeLabels} from '../constants/AppConstant';
 
 interface CarouselItemProps {
   title: string;
@@ -35,7 +36,10 @@ const CarouselItemComponent: FC<CarouselItemProps> = ({
     <View style={styles.item}>
       <View style={styles.innerContainer}>
         <Text style={styles.title}>{title}</Text>
-        <Text style={styles.subTitle}>{'Sample subtitle'}</Text>
+        <Text
+          style={
+            styles.subTitle
+          }>{`#${HomeLabels.CAROUSEL_IMAGE_CATEGORY}`}</Text>
         <Image style={styles.cardImage} source={{uri: imageUrl}} />
         <Text style={styles.info}>{description}</Text>
       </View>

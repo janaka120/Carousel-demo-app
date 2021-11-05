@@ -3,6 +3,7 @@ import {CarouselModel} from './../models/App';
 export const HomeLabels = {
   HEADER_NAV_TITLE: 'Carousel Demo App',
   HEADER_NAV_NAME: 'Home',
+  CAROUSEL_IMAGE_CATEGORY: 'nature',
 };
 
 export const PAGE_COUNT = 4;

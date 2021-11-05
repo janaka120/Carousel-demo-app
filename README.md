@@ -28,3 +28,7 @@ The demo project uses the following third-party dependencies:
 - "axios" - Promise based HTTP client
 - "redux toolkit" - managing application state
 - "react-native-bootsplash" - implement splash screen during app startup
+
+## Sample Images
+
+Carousel images are getting in real time by using [https://pixabay.com/api/docs/](Pixabay API)
