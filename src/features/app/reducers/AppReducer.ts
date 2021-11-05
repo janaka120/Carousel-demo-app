@@ -1,5 +1,4 @@
 import {CarouselModel} from './../models/App';
-import {CarouselSource} from './../constants/AppConstant';
 import {createSlice, PayloadAction} from '@reduxjs/toolkit';
 import {AppState} from '../models/AppReducer';
 

@@ -19,7 +19,6 @@ export const fetchCarouselList =
         dispatch(fetchCarouselListSuccess(data));
       } else {
         dispatch(apiCallError());
-        // showErrorMsgWithAction(() => dispatch(fetchPricingSheetList(lastFetchedParams)), ErrorMsg.PRICING_SHEETS_LOADING_ERROR);
       }
     } catch (e) {}
   };

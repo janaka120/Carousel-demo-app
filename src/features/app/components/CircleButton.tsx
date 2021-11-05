@@ -14,8 +14,8 @@ interface CircleButtonProps {
   title: string;
   onPress: () => void;
   disabled: boolean;
-  customStyle: {};
-  customTextStyle: any;
+  customStyle?: {};
+  customTextStyle?: any;
 }
 
 const CircleButton: FC<CircleButtonProps> = ({
