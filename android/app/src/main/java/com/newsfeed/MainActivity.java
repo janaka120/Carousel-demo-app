@@ -1,4 +1,4 @@
-package com.newsfeed;
+package com.mycarousel;
 
 import com.facebook.react.ReactActivity;
 import android.os.Bundle;
