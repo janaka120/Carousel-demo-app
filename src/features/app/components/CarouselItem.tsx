@@ -40,7 +40,11 @@ const CarouselItemComponent: FC<CarouselItemProps> = ({
           style={
             styles.subTitle
           }>{`#${HomeLabels.CAROUSEL_IMAGE_CATEGORY}`}</Text>
-        <Image style={styles.cardImage} source={{uri: imageUrl}} />
+        <Image
+          style={styles.cardImage}
+          source={{uri: imageUrl}}
+          testID={`${title}_image`}
+        />
         <Text style={styles.info}>{description}</Text>
       </View>
     </View>

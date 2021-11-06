@@ -82,5 +82,6 @@ export const getCarouselList = async (params: GetCarouselListParams) => {
     returnVal.msg =
       e?.response?.data?.errorMessage || e?.message || 'Unable to fetch list.';
   }
+  console.log('returnVal 0 >>>>>', returnVal.data);
   return returnVal;
 };

@@ -118,10 +118,10 @@ export function boxShadow(
   };
 }
 
-const deviceLocale =
-  Platform.OS === 'ios'
-    ? NativeModules.SettingsManager.settings.AppleLocale ||
-      NativeModules.SettingsManager.settings.AppleLanguages[0] //iOS 13
-    : NativeModules.I18nManager.localeIdentifier;
+// const deviceLocale =
+//   Platform.OS === 'ios'
+//     ? NativeModules.SettingsManager.settings.AppleLocale ||
+//       NativeModules.SettingsManager.settings.AppleLanguages[0] //iOS 13
+//     : NativeModules.I18nManager.localeIdentifier;
 
-export default deviceLocale;
+// export default deviceLocale;

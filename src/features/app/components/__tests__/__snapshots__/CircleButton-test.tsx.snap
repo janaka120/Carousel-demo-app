@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CircleButton renders correctly 1`] = `
+<View
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  nativeID="animatedComponent"
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "rgba(117, 208, 227, 0.7)",
+      "borderRadius": 35,
+      "height": 100,
+      "justifyContent": "center",
+      "opacity": 1,
+      "padding": 0,
+      "width": 100,
+    }
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#FFFFFF",
+          "fontSize": 33,
+          "lineHeight": 45.375,
+        },
+        undefined,
+      ]
+    }
+  >
+    &lt;
+  </Text>
+</View>
+`;
