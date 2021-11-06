@@ -2,6 +2,9 @@
 
 # React Native Carousel Demo App
 
+![home-screen-android](https://github.com/janaka120/Carousel-demo-app/blob/splash-screen/src/assets/images/screenshots/home-screen-android.png)
+![home-screen-ios](https://github.com/janaka120/Carousel-demo-app/blob/splash-screen/src/assets/images/screenshots/home-screen-ios.png)
+
 ## Getting started
 
 1. Install React Native as described at [https://reactnative.dev/docs/getting-started](https://reactnative.dev/docs/getting-started)
