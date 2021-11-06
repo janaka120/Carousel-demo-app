@@ -1,6 +1,7 @@
 import {convertNumberToWord} from './../../../utils/Helper';
 import {
   CAROUSEL_MODULE_SIZE,
+  HomeLabels,
   SAMPLE_CAROUSEL_INFO,
 } from './../constants/AppConstant';
 import {ApiKey, ApiEndPoint} from './../../../api/ApiConstants';
@@ -33,7 +34,7 @@ export const getCarouselList = async (params: GetCarouselListParams) => {
   };
   try {
     const {perPageSize} = params;
-    const url = `${ApiEndPoint.BASE_URL}?key=${ApiKey}&image_type=photo&pretty=true&page=1&per_page=${perPageSize}`;
+    const url = `${ApiEndPoint.BASE_URL}?key=${ApiKey}&image_type=photo&pretty=true&q=${HomeLabels.CAROUSEL_IMAGE_CATEGORY}&page=1&per_page=${perPageSize}`;
     const res = await API.get(url);
     console.log('--getCarouselList--', res.data.hits.length, params);
     if (
@@ -81,5 +82,6 @@ export const getCarouselList = async (params: GetCarouselListParams) => {
     returnVal.msg =
       e?.response?.data?.errorMessage || e?.message || 'Unable to fetch list.';
   }
+  console.log('returnVal 0 >>>>>', returnVal.data);
   return returnVal;
 };

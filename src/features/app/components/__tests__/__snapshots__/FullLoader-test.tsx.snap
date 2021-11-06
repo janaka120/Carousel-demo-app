@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FullLoader renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "bottom": 0,
+      "justifyContent": "center",
+      "left": 0,
+      "position": "absolute",
+      "right": 0,
+      "top": 0,
+    }
+  }
+>
+  <ActivityIndicator
+    color="#565756"
+  />
+  <Text
+    style={
+      Object {
+        "color": "#565756",
+        "fontSize": 29,
+        "lineHeight": 39.875,
+        "marginTop": 32.857142857142854,
+      }
+    }
+  >
+    Loading...
+  </Text>
+</View>
+`;

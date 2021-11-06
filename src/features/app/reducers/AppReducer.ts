@@ -1,10 +1,12 @@
-import {CarouselModel} from './../models/App';
 import {createSlice, PayloadAction} from '@reduxjs/toolkit';
+
+import {CarouselSource} from './../constants/AppConstant';
+import {CarouselModel} from './../models/App';
 import {AppState} from '../models/AppReducer';
 
 const initialState: AppState = {
   isInProgress: false,
-  carouselList: [],
+  carouselList: CarouselSource,
 };
 
 export const appSlice = createSlice({

@@ -1,5 +1,5 @@
 {
-  "name": "newsfeed",
+  "name": "mycarousel",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -17,6 +17,7 @@
     "axios": "^0.21.1",
     "react": "17.0.2",
     "react-native": "0.65.1",
+    "react-native-bootsplash": "^3.2.6",
     "react-native-gesture-handler": "^1.10.3",
     "react-native-safe-area-context": "^3.3.1",
     "react-native-screens": "^3.6.0",
@@ -26,6 +27,7 @@
     "@babel/core": "^7.12.9",
     "@babel/runtime": "^7.12.5",
     "@react-native-community/eslint-config": "^2.0.0",
+    "@testing-library/react-native": "^8.0.0",
     "@types/jest": "^26.0.23",
     "@types/react-native": "^0.64.5",
     "@types/react-test-renderer": "^16.9.2",

@@ -1,7 +1,8 @@
-package com.newsfeed;
+package com.mycarousel;
 
 import com.facebook.react.ReactActivity;
 import android.os.Bundle;
+import com.zoontek.rnbootsplash.RNBootSplash;
 
 public class MainActivity extends ReactActivity {
 
@@ -17,5 +18,6 @@ public class MainActivity extends ReactActivity {
   @Override
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(null);
+    RNBootSplash.init(R.drawable.bootsplash, MainActivity.this);
   }
 }
